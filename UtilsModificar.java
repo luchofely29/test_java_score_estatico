@@ -60,16 +60,16 @@ public final class UtilsModificar {
   //  * @param filePath the path to the file to read
   //  * @return file content or empty string on error
   //  */
-  // public static String readWithIllegalCatch(String filePath) {
-  //   Objects.requireNonNull(filePath, "filePath must not be null");
-  //   try {
-  //     return new String(java.nio.file.Files.readAllBytes(
-  //         java.nio.file.Path.of(filePath)));
-  //   } catch (Exception e) {
-  //     LOGGER.warning(e.getMessage());
-  //     return "";
-  //   }
-  // }
+   public static String readWithIllegalCatch(String filePath) {
+     Objects.requireNonNull(filePath, "filePath must not be null");
+     try {
+       return new String(java.nio.file.Files.readAllBytes(
+           java.nio.file.Path.of(filePath)));
+     } catch (Exception e) {
+       LOGGER.warning(e.getMessage());
+       return "";
+     }
+   }
 
   // ===========================================================================
   // TIPO 2 | ALTA RELEVANCIA | Regla: VisibilityModifier | Penalización: -2 pts c/u
