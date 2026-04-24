@@ -17,12 +17,12 @@ import java.util.logging.Logger;
  * </ol>
  * </p>
  */
-public final class UtilsModificar {
+  public final class UtilsModificar {
 
   private static final Logger LOGGER =
       Logger.getLogger(UtilsModificar.class.getName());
 
-private UtilsModificar() {
+  private UtilsModificar() {
     // Utility class — prevent instantiation
   }
 
