@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * </ol>
  * </p>
  */
-  public final class UtilsModificar {
+public final class UtilsModificar {
 
   private static final Logger LOGGER =
       Logger.getLogger(UtilsModificar.class.getName());
@@ -65,7 +65,7 @@ import java.util.logging.Logger;
   //   try {
   //     return new String(java.nio.file.Files.readAllBytes(
   //         java.nio.file.Path.of(filePath)));
-  //   } catch (Exception e) {
+  //  } catch (Exception e) {
   //     LOGGER.warning(e.getMessage());
   //     return "";
   //   }
@@ -89,7 +89,7 @@ import java.util.logging.Logger;
   // ===========================================================================
   //
   // public static String getVersionWithoutJavadoc() {
-  //   return "1.0";
+  //  return "1.0";
   // }
 
   // ===========================================================================
