@@ -88,9 +88,9 @@ public final class UtilsModificarUpdate {
   // Esperado : 100 - 0.5 = 99.5 pts  (1 violación × -0.5 pts)
   // ===========================================================================
   //
-  // public static String getVersionWithoutJavadoc() {
-  //  return "1.0";
-  // }
+   public static String getVersionWithoutJavadoc() {
+    return "1.0";
+   }
 
   // ===========================================================================
   // TIPO 4 | BAJA RELEVANCIA | Regla: MethodName | Penalización: -0.1 pts c/u
