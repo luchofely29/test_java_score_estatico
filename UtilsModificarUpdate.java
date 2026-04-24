@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * </ol>
  * </p>
  */
-public final class UtilsModificar {
+public final class UtilsModificarUpdate {
 
   private static final Logger LOGGER =
       Logger.getLogger(UtilsModificar.class.getName());
