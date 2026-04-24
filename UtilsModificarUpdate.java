@@ -104,8 +104,8 @@ public final class UtilsModificarUpdate {
   //  *
   //  * @return a greeting string
   //  */
-  // public static String get_version_snake() {
-  //   return "1.0";
-  // }
+   public static String get_version_snake() {
+     return "1.0";
+   }
 
 }
