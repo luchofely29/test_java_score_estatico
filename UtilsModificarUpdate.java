@@ -78,8 +78,8 @@ public final class UtilsModificarUpdate {
   // Esperado : 100 - 4 = 96 pts  (2 violaciones × -2 pts)
   // ===========================================================================
   //
-  // public String publicLabel = "exposed";
-  // public int publicCounter = 0;
+   public String publicLabel = "exposed";
+   public int publicCounter = 0;
 
   // ===========================================================================
   // TIPO 3 | MEDIA RELEVANCIA | Regla: MissingJavadocMethod | Penalización: -0.5 pts c/u
